@@ -1,0 +1,17 @@
+{
+  "runtimeOptions": {
+    "tfm": "net5.0",
+    "framework": {
+      "name": "Microsoft.WindowsDesktop.App",
+      "version": "5.0.0"
+    },
+    "additionalProbingPaths": [
+      "C:\\Users\\Administrator\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Administrator\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "configProperties": {
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}

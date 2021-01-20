@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\Juster.Common\bin\Debug\net5.0\Juster.Common.deps.json
+C:\Users\Administrator\source\repos\Juster.Common\bin\Debug\net5.0\Juster.Common.dll
+C:\Users\Administrator\source\repos\Juster.Common\bin\Debug\net5.0\ref\Juster.Common.dll
+C:\Users\Administrator\source\repos\Juster.Common\bin\Debug\net5.0\Juster.Common.pdb
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\net5.0\Juster.Common.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\net5.0\Juster.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\net5.0\Juster.Common.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\net5.0\Juster.Common.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\net5.0\Juster.Common.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\net5.0\Juster.Common.dll
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\net5.0\ref\Juster.Common.dll
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\net5.0\Juster.Common.pdb
