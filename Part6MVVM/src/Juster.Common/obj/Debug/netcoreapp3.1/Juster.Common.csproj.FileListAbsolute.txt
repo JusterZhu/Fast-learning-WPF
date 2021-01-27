@@ -1,0 +1,8 @@
+C:\Users\Administrator\source\repos\Juster.Common\bin\Debug\netcoreapp3.1\Juster.Common.deps.json
+C:\Users\Administrator\source\repos\Juster.Common\bin\Debug\netcoreapp3.1\Juster.Common.dll
+C:\Users\Administrator\source\repos\Juster.Common\bin\Debug\netcoreapp3.1\Juster.Common.pdb
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\netcoreapp3.1\Juster.Common.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\netcoreapp3.1\Juster.Common.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\netcoreapp3.1\Juster.Common.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\netcoreapp3.1\Juster.Common.dll
+C:\Users\Administrator\source\repos\Juster.Common\obj\Debug\netcoreapp3.1\Juster.Common.pdb
