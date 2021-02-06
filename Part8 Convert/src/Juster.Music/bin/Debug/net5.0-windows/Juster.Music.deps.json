@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Juster.Music/1.0.0": {
+        "dependencies": {
+          "Juster.Common": "1.0.0"
+        },
+        "runtime": {
+          "Juster.Music.dll": {}
+        }
+      },
+      "Juster.Common/1.0.0": {
+        "runtime": {
+          "Juster.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Juster.Music/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Juster.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
