@@ -1,0 +1,120 @@
+﻿<Window
+    x:Class="Juster.Music.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Juster.Music"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <DataTemplate x:Key="songSheetDataTemplate">
+            <StackPanel Orientation="Horizontal">
+                <Image
+                    Width="30"
+                    Height="30"
+                    Source="{Binding Path=Icon}" />
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="14"
+                    FontWeight="Bold"
+                    Text="{Binding Path=Name}" />
+            </StackPanel>
+        </DataTemplate>
+        <ControlTemplate x:Key="ButtonTemplate" TargetType="Button">
+            <!--  定义视觉树  -->
+            <Grid>
+                <Ellipse
+                    Name="faceEllipse"
+                    Width="{TemplateBinding Button.Width}"
+                    Height="{TemplateBinding Control.Height}"
+                    Fill="{TemplateBinding Button.Background}" />
+                <TextBlock
+                    Name="txtBlock"
+                    Margin="{TemplateBinding Button.Padding}"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="{TemplateBinding Button.Content}" />
+            </Grid>
+            <!--  定义视觉树_end  -->
+            <!--  定义触发器  -->
+            <ControlTemplate.Triggers>
+                <Trigger Property="Button.IsMouseOver" Value="True">
+                    <Setter Property="Button.Foreground" Value="Red" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+            <!--  定义触发器_End  -->
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="6*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="8*" />
+        </Grid.ColumnDefinitions>
+        <ListBox
+            x:Name="LstSongSheets"
+            Grid.Row="1"
+            ItemTemplate="{StaticResource songSheetDataTemplate}"
+            ItemsSource="{Binding Path=SongSheets}" />
+        <DataGrid
+            Grid.Row="1"
+            Grid.Column="1"
+            AutoGenerateColumns="False"
+            ItemsSource="{Binding ElementName=LstSongSheets, Path=SelectedItem.Songs}"
+            RowHeaderWidth="0">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Width="150"
+                    Binding="{Binding Path=Name}"
+                    Header="歌名" />
+                <DataGridTextColumn
+                    Width="150"
+                    Binding="{Binding Path=Singer}"
+                    Header="歌手" />
+                <DataGridTextColumn
+                    Width="150"
+                    Binding="{Binding Path=AlbumTitle}"
+                    Header="专辑" />
+                <DataGridTextColumn
+                    Width="150"
+                    Binding="{Binding Path=Lenght}"
+                    Header="时长" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel
+            Grid.Row="2"
+            Grid.Column="1"
+            Width="195"
+            Height="40"
+            Orientation="Horizontal">
+            <Button
+                Width="55"
+                Height="25"
+                Margin="5"
+                Content="上一曲"
+                Template="{StaticResource ButtonTemplate}" />
+            <Button
+                Grid.Row="2"
+                Width="55"
+                Height="25"
+                Margin="5"
+                Content="播放"
+                Template="{StaticResource ButtonTemplate}" />
+            <Button
+                Grid.Row="2"
+                Width="55"
+                Height="25"
+                Margin="5"
+                Content="下一曲"
+                Template="{StaticResource ButtonTemplate}" />
+        </StackPanel>
+    </Grid>
+</Window>

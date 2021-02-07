@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Juster.Common\Juster.Common.csproj" />
+    <ProjectReference Include="..\Juster.DAL\Juster.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

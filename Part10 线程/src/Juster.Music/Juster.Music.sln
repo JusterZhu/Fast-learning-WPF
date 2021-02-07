@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Juster.Music", "Juster.Music.csproj", "{84E3EE3B-F4B6-4D09-B800-11F884E1B081}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Juster.Common", "..\Juster.Common\Juster.Common.csproj", "{6AF58BFD-10B9-434B-8DB6-443AE9904B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juster.DAL", "..\Juster.DAL\Juster.DAL.csproj", "{FE7094C7-632C-460E-A432-E5A9BFBC1B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84E3EE3B-F4B6-4D09-B800-11F884E1B081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E3EE3B-F4B6-4D09-B800-11F884E1B081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E3EE3B-F4B6-4D09-B800-11F884E1B081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E3EE3B-F4B6-4D09-B800-11F884E1B081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF58BFD-10B9-434B-8DB6-443AE9904B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF58BFD-10B9-434B-8DB6-443AE9904B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF58BFD-10B9-434B-8DB6-443AE9904B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF58BFD-10B9-434B-8DB6-443AE9904B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7094C7-632C-460E-A432-E5A9BFBC1B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7094C7-632C-460E-A432-E5A9BFBC1B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7094C7-632C-460E-A432-E5A9BFBC1B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7094C7-632C-460E-A432-E5A9BFBC1B51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E656AAAD-E17D-44D0-9DD5-73E095206EC4}
+	EndGlobalSection
+EndGlobal
