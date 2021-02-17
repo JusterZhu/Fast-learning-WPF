@@ -1,0 +1,64 @@
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.exe
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.deps.json
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.runtimeconfig.json
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.dll
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\ref\Juster.Music.dll
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.pdb
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.Common.dll
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.Common.pdb
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music_MarkupCompile.cache
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music_MarkupCompile.lref
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.g.resources
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.dll
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\ref\Juster.Music.dll
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.pdb
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Views\LoginView.g.cs
+C:\Users\Administrator\source\repos\Juster.Music\obj\Debug\net5.0-windows\Views\LoginView.baml
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.DAL.dll
+C:\Users\Administrator\source\repos\Juster.Music\bin\Debug\net5.0-windows\Juster.DAL.pdb
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.exe
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.deps.json
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.runtimeconfig.json
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.runtimeconfig.dev.json
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\ref\Juster.Music.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Music.pdb
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\NLog.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Common.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.DAL.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Logger.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Common.pdb
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.DAL.pdb
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\Juster.Logger.pdb
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.csprojAssemblyReference.cache
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Views\LoginView.g.cs
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\App.g.cs
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music_MarkupCompile.cache
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music_MarkupCompile.lref
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\MainWindow.baml
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Views\LoginView.baml
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.g.resources
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.GeneratedMSBuildEditorConfig.editorconfig
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.AssemblyInfoInputs.cache
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.AssemblyInfo.cs
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.csproj.CoreCompileInputs.cache
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.csproj.CopyComplete
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\ref\Juster.Music.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.pdb
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\obj\Debug\net5.0-windows\Juster.Music.genruntimeconfig.cache
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\NLog.Extensions.Logging.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\NLog.Web.AspNetCore.dll
+D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.Music\bin\Debug\net5.0-windows\NLog.config

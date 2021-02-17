@@ -1,0 +1,23 @@
+{
+  "runtimeOptions": {
+    "tfm": "net5.0",
+    "frameworks": [
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "5.0.0"
+      },
+      {
+        "name": "Microsoft.AspNetCore.App",
+        "version": "5.0.0"
+      }
+    ],
+    "additionalProbingPaths": [
+      "C:\\Users\\juster.zhu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\juster.zhu\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "configProperties": {
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}

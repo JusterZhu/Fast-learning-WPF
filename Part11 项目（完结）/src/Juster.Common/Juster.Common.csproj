@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="imgs\befor.png" />
+    <None Remove="imgs\logo.png" />
+    <None Remove="imgs\music.png" />
+    <None Remove="imgs\next.png" />
+    <None Remove="imgs\play.png" />
+    <None Remove="imgs\stop.png" />
+    <None Remove="mp3\周杰伦 - 稻香.mp3" />
+    <None Remove="mp3\蔡依林 - 日不落.mp3" />
+    <None Remove="mp3\蔡依林 - 特务J.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imgs\befor.png" />
+    <Resource Include="imgs\logo.png" />
+    <Resource Include="imgs\music.png" />
+    <Resource Include="imgs\next.png" />
+    <Resource Include="imgs\play.png" />
+    <Resource Include="imgs\stop.png" />
+    <Resource Include="mp3\周杰伦 - 稻香.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="mp3\蔡依林 - 日不落.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="mp3\蔡依林 - 特务J.mp3">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "JOMtq2zz1i0aDZeuVZ6J94VemoORwJUwtfXFXqZ+hQ1d6mI4gEVFWI0d90k8XHp27PHRkJdLaFtn3p687gwG5A==",
+  "success": true,
+  "projectFilePath": "D:\\博客资料\\Fast-learning-WPF\\Part11 项目（完结）\\src\\Juster.Music\\Juster.Music.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\nlog\\4.7.6\\nlog.4.7.6.nupkg.sha512",
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\nlog.extensions.logging\\1.7.0\\nlog.extensions.logging.1.7.0.nupkg.sha512",
+    "C:\\Users\\juster.zhu\\.nuget\\packages\\nlog.web.aspnetcore\\4.10.0\\nlog.web.aspnetcore.4.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}

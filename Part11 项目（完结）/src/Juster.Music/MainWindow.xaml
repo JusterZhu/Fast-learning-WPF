@@ -1,0 +1,236 @@
+﻿<Window
+    x:Class="Juster.Music.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Juster.Music"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    AllowsTransparency="True"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <Style x:Key="SliderIncreaseButtonStyle" TargetType="{x:Type RepeatButton}">
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+            <Setter Property="OverridesDefaultStyle" Value="True" />
+            <Setter Property="IsTabStop" Value="False" />
+            <Setter Property="Focusable" Value="False" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RepeatButton}">
+                        <Border
+                            Width="4"
+                            Background="Red"
+                            SnapsToDevicePixels="True" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="SliderDecreaseButtonStyle" TargetType="{x:Type RepeatButton}">
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+            <Setter Property="OverridesDefaultStyle" Value="True" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RepeatButton}">
+                        <Border
+                            Width="4"
+                            Background="#FFEBEBEB"
+                            SnapsToDevicePixels="True" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="SliderStyle1" TargetType="{x:Type Slider}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Slider}">
+                        <Grid>
+                            <Track>
+                                <Track.DecreaseRepeatButton>
+                                    <RepeatButton Style="{StaticResource SliderDecreaseButtonStyle}" />
+                                </Track.DecreaseRepeatButton>
+                                <Track.IncreaseRepeatButton>
+                                    <RepeatButton Style="{StaticResource SliderIncreaseButtonStyle}" />
+                                </Track.IncreaseRepeatButton>
+                            </Track>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <DataTemplate x:Key="songSheetDataTemplate">
+            <StackPanel Orientation="Horizontal">
+                <Image
+                    Width="30"
+                    Height="30"
+                    Source="{Binding Path=Icon}" />
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="14"
+                    FontWeight="Bold"
+                    Text="{Binding Path=Name}" />
+            </StackPanel>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="6*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="8*" />
+        </Grid.ColumnDefinitions>
+        <Grid
+            Grid.ColumnSpan="2"
+            Background="Red"
+            MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+            <StackPanel
+                Margin="10,0,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+                <Image Width="30" Source="/Juster.Common;component/imgs/logo.png" />
+                <TextBlock
+                    Margin="5"
+                    VerticalAlignment="Center"
+                    FontSize="16"
+                    FontWeight="Bold"
+                    Foreground="White"
+                    Text="Juster Music" />
+            </StackPanel>
+            <StackPanel
+                Margin="0,0,20,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Orientation="Horizontal">
+                <TextBlock
+                    x:Name="UserNameTb"
+                    MinWidth="40"
+                    Margin="5"
+                    VerticalAlignment="Center"
+                    Foreground="White" />
+                <Button
+                    Width="70"
+                    Height="30"
+                    Background="Transparent"
+                    BorderBrush="White"
+                    BorderThickness="2"
+                    Click="Button_Click"
+                    Content="login"
+                    Foreground="White" />
+            </StackPanel>
+        </Grid>
+        <ListBox
+            x:Name="LstSongSheets"
+            Grid.Row="1"
+            ItemTemplate="{StaticResource songSheetDataTemplate}"
+            ItemsSource="{Binding Path=SongSheets}" />
+        <MediaElement
+            x:Name="Media"
+            LoadedBehavior="Manual"
+            Visibility="Collapsed" />
+        <DataGrid
+            x:Name="DgdSongs"
+            Grid.Row="1"
+            Grid.Column="1"
+            AutoGenerateColumns="False"
+            ItemsSource="{Binding ElementName=LstSongSheets, Path=SelectedItem.Songs}"
+            RowHeaderWidth="0"
+            SelectedItem="{Binding Song}"
+            SelectionChanged="DgdSongs_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Width="150"
+                    Binding="{Binding Path=Name}"
+                    Header="歌名" />
+                <DataGridTextColumn
+                    Width="150"
+                    Binding="{Binding Path=Singer}"
+                    Header="歌手" />
+                <DataGridTextColumn
+                    Width="150"
+                    Binding="{Binding Path=AlbumTitle}"
+                    Header="专辑" />
+                <DataGridTextColumn
+                    Width="150"
+                    Binding="{Binding Path=Lenght}"
+                    Header="时长" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel
+            Grid.Row="2"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <TextBlock
+                Margin="5"
+                FontSize="15"
+                FontWeight="Bold"
+                Text="{Binding ElementName=DgdSongs, Path=SelectedItem.Name}" />
+            <TextBlock
+                Margin="5"
+                FontSize="15"
+                FontWeight="Bold"
+                Text="{Binding ElementName=DgdSongs, Path=SelectedItem.Singer}" />
+        </StackPanel>
+        <StackPanel
+            Grid.Row="2"
+            Grid.Column="1"
+            Height="40"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal">
+            <Button Background="Transparent" BorderBrush="Transparent">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Image
+                            Width="20"
+                            Height="25"
+                            Source="/Juster.Common;component/imgs/befor.png" />
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+            <Button
+                Name="BtnPlay"
+                Grid.Row="2"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Click="BtnPlay_Click">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Image
+                            Width="35"
+                            Height="35"
+                            Source="/Juster.Common;component/imgs/play.png" />
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+            <Button
+                Grid.Row="2"
+                Background="Transparent"
+                BorderBrush="Transparent">
+                <Button.ContentTemplate>
+                    <DataTemplate>
+                        <Image
+                            Width="20"
+                            Height="25"
+                            Source="/Juster.Common;component/imgs/next.png" />
+                    </DataTemplate>
+                </Button.ContentTemplate>
+            </Button>
+        </StackPanel>
+        <Slider
+            Grid.Row="2"
+            Grid.Column="2"
+            Width="500"
+            Height="20"
+            Margin="0,0,0,5"
+            VerticalAlignment="Bottom"
+            Maximum="{Binding MaxVal}"
+            Minimum="{Binding MinVal}"
+            Value="{Binding ElementName=Media, Path=Position}" />
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+C:\Users\Administrator\source\repos\Juster.DAL\bin\Debug\netcoreapp3.1\Juster.DAL.deps.json
+C:\Users\Administrator\source\repos\Juster.DAL\bin\Debug\netcoreapp3.1\Juster.DAL.dll
+C:\Users\Administrator\source\repos\Juster.DAL\bin\Debug\netcoreapp3.1\Juster.DAL.pdb
+C:\Users\Administrator\source\repos\Juster.DAL\obj\Debug\netcoreapp3.1\Juster.DAL.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\Juster.DAL\obj\Debug\netcoreapp3.1\Juster.DAL.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Juster.DAL\obj\Debug\netcoreapp3.1\Juster.DAL.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Juster.DAL\obj\Debug\netcoreapp3.1\Juster.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Juster.DAL\obj\Debug\netcoreapp3.1\Juster.DAL.dll
+C:\Users\Administrator\source\repos\Juster.DAL\obj\Debug\netcoreapp3.1\Juster.DAL.pdb
