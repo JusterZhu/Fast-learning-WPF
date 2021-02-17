@@ -10,3 +10,14 @@ D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\D
 D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\ref\Juster.DAL.dll
 D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\Juster.DAL.pdb
 D:\博客资料\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\Juster.DAL.csprojAssemblyReference.cache
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\bin\Debug\net5.0-windows\Juster.DAL.deps.json
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\bin\Debug\net5.0-windows\Juster.DAL.dll
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\bin\Debug\net5.0-windows\ref\Juster.DAL.dll
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\bin\Debug\net5.0-windows\Juster.DAL.pdb
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\Juster.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\Juster.DAL.AssemblyInfoInputs.cache
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\Juster.DAL.AssemblyInfo.cs
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\Juster.DAL.csproj.CoreCompileInputs.cache
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\Juster.DAL.dll
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\ref\Juster.DAL.dll
+E:\博客相关资料\文章\WPF新手快速入门系列\Fast-learning-WPF\Part11 项目（完结）\src\Juster.DAL\obj\Debug\net5.0-windows\Juster.DAL.pdb

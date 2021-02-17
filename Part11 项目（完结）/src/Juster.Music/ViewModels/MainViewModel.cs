@@ -1,5 +1,6 @@
 ﻿using Juster.Common;
 using Juster.DAL;
+using Juster.Logger;
 using Juster.Music.Models;
 using System;
 using System.Collections.Generic;
@@ -87,65 +88,59 @@ namespace Juster.Music.ViewModels
             }
         }
 
-        public ICommand NextCommand { get; set; }
-
-        public ICommand BeforCommand { get; set; }
-
-        public ICommand PlayCommand { get; set; }
-
         public MainViewModel() 
         {
-            NextCommand = new RelayCommand(NextAction);
-            BeforCommand = new RelayCommand(BeforAction);
-            PlayCommand = new RelayCommand(PlayAction);
             SongSheets = ConvertToModel(DataService.GetSongSheet());
         }
 
-        private void PlayAction()
-        {
-        }
-
-        private void BeforAction()
-        {
-            
-        }
-
-        private void NextAction()
-        {
-            
-        }
 
         private List<SongSheetModel> ConvertToModel(List<SongSheetDTO> songSheets) 
         {
-            List<SongSheetModel> resultLst = new List<SongSheetModel>();
-
-            foreach (var songSheet in songSheets)
+            try
             {
-                resultLst.Add(new SongSheetModel 
+                List<SongSheetModel> resultLst = new List<SongSheetModel>();
+
+                foreach (var songSheet in songSheets)
                 {
-                    Name = songSheet.Name,
-                    Icon = songSheet.Icon,
-                    Songs = ConvertToSongs(songSheet.Songs)
-                });
+                    resultLst.Add(new SongSheetModel
+                    {
+                        Name = songSheet.Name,
+                        Icon = songSheet.Icon,
+                        Songs = ConvertToSongs(songSheet.Songs)
+                    });
+                }
+                return resultLst;
             }
-            return resultLst;
+            catch (Exception ex)
+            {
+                NLogger.Error(ex.Message, ex);
+                return null;
+            }
         }
 
         private List<SongModel> ConvertToSongs(List<SongDTO> songs) 
         {
-            List<SongModel> resultModels = new List<SongModel>();
-            foreach (var song in songs)
+            try
             {
-                resultModels.Add(new SongModel 
+                List<SongModel> resultModels = new List<SongModel>();
+                foreach (var song in songs)
                 {
-                    Name = song.Name,
-                    Singer = song.Singer,
-                    Lenght = song.Lenght,
-                    Url = song.Url,
-                    AlbumTitle = song.AlbumTitle
-                });
+                    resultModels.Add(new SongModel
+                    {
+                        Name = song.Name,
+                        Singer = song.Singer,
+                        Lenght = song.Lenght,
+                        Url = song.Url,
+                        AlbumTitle = song.AlbumTitle
+                    });
+                }
+                return resultModels;
             }
-            return resultModels;
+            catch (Exception ex)
+            {
+                NLogger.Error(ex.Message,ex);
+                return null;
+            }
         }
     }
 }

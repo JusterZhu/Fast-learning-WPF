@@ -15,10 +15,10 @@ namespace Juster.DAL
             songSheetJay.Icon = "/Juster.Common;component/imgs/music.png";
             songSheetJay.Songs = new List<SongDTO>() 
             {
-                new SongDTO{ Name = "七里香" , AlbumTitle = "叶惠美" , Lenght = 800 , Singer = "周杰伦" , Url = "pack://application:,,,/Juster.Common;component/mp3/周杰伦 - 稻香.mp3" },
-                new SongDTO{ Name = "外婆" , AlbumTitle = "叶惠美" , Lenght = 800 , Singer = "周杰伦" , Url = "pack://application:,,,/Juster.Common;component/mp3/周杰伦 - 稻香.mp3" },
-                new SongDTO{ Name = "将军" , AlbumTitle = "叶惠美" , Lenght = 800 , Singer = "周杰伦" , Url = "pack://application:,,,/Juster.Common;component/mp3/周杰伦 - 稻香.mp3" },
-                new SongDTO{ Name = "搁浅" , AlbumTitle = "叶惠美" , Lenght = 800 , Singer = "周杰伦" , Url = "pack://application:,,,/Juster.Common;component/mp3/周杰伦 - 稻香.mp3" }
+                new SongDTO{ Name = "七里香" , AlbumTitle = "叶惠美" , Lenght = 800 , Singer = "周杰伦" , Url = "mp3/周杰伦 - 稻香.mp3" },
+                new SongDTO{ Name = "外婆" , AlbumTitle = "叶惠美" , Lenght = 800 , Singer = "周杰伦" , Url = "mp3/周杰伦 - 稻香.mp3" },
+                new SongDTO{ Name = "将军" , AlbumTitle = "叶惠美" , Lenght = 800 , Singer = "周杰伦" , Url = "mp3/周杰伦 - 稻香.mp3" },
+                new SongDTO{ Name = "搁浅" , AlbumTitle = "叶惠美" , Lenght = 800 , Singer = "周杰伦" , Url = "mp3/周杰伦 - 稻香.mp3" }
             };
             songSheets.Add(songSheetJay);
 
@@ -27,10 +27,10 @@ namespace Juster.DAL
             songSheetJolin.Icon = "/Juster.Common;component/imgs/music.png";
             songSheetJolin.Songs = new List<SongDTO>()
             {
-                new SongDTO{ Name = "倒带" , AlbumTitle = "城堡" , Lenght = 800 , Singer = "蔡依林" , Url = "pack://application:,,,/Juster.Common;component/mp3/蔡依林 - 日不落.mp3" },
-                new SongDTO{ Name = "爱情36计" , AlbumTitle = "城堡" , Lenght = 800 , Singer = "蔡依林" , Url = "pack://application:,,,/Juster.Common;component/mp3/蔡依林 - 日不落.mp3" },
-                new SongDTO{ Name = "海盗" , AlbumTitle = "城堡" , Lenght = 800 , Singer = "蔡依林" , Url = "pack://application:,,,/蔡依林 - 特务J.mp3" },
-                new SongDTO{ Name = "柠檬草的味道" , AlbumTitle = "城堡" , Lenght = 800 , Singer = "蔡依林" , Url = "pack://application:,,,/蔡依林 - 特务J.mp3" }
+                new SongDTO{ Name = "倒带" , AlbumTitle = "城堡" , Lenght = 800 , Singer = "蔡依林" , Url = "mp3/蔡依林 - 日不落.mp3" },
+                new SongDTO{ Name = "爱情36计" , AlbumTitle = "城堡" , Lenght = 800 , Singer = "蔡依林" , Url = "mp3/蔡依林 - 日不落.mp3" },
+                new SongDTO{ Name = "海盗" , AlbumTitle = "城堡" , Lenght = 800 , Singer = "蔡依林" , Url = "mp3/蔡依林 - 特务J.mp3" },
+                new SongDTO{ Name = "柠檬草的味道" , AlbumTitle = "城堡" , Lenght = 800 , Singer = "蔡依林" , Url = "mp3/蔡依林 - 特务J.mp3" }
             };
             songSheets.Add(songSheetJolin);
 

@@ -26,13 +26,13 @@
     <Resource Include="imgs\play.png" />
     <Resource Include="imgs\stop.png" />
     <Resource Include="mp3\周杰伦 - 稻香.mp3">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="mp3\蔡依林 - 日不落.mp3">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="mp3\蔡依林 - 特务J.mp3">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
 

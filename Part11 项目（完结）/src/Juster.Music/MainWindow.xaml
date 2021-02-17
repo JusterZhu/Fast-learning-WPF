@@ -133,6 +133,7 @@
         <MediaElement
             x:Name="Media"
             LoadedBehavior="Manual"
+            UnloadedBehavior="Stop"
             Visibility="Collapsed" />
         <DataGrid
             x:Name="DgdSongs"
@@ -222,15 +223,26 @@
                 </Button.ContentTemplate>
             </Button>
         </StackPanel>
-        <Slider
+        <StackPanel
             Grid.Row="2"
             Grid.Column="2"
-            Width="500"
             Height="20"
             Margin="0,0,0,5"
             VerticalAlignment="Bottom"
-            Maximum="{Binding MaxVal}"
-            Minimum="{Binding MinVal}"
-            Value="{Binding ElementName=Media, Path=Position}" />
+            Orientation="Horizontal">
+            <TextBlock x:Name="TxbTimeStart" />
+            <Slider Name="sliderPosition" Width="500" />
+            <TextBlock x:Name="TxbTimeEnd" />
+        </StackPanel>
+        <Slider
+            Name="sliderVolume"
+            Grid.Row="2"
+            Grid.Column="2"
+            Width="80"
+            Height="20"
+            Margin="0,0,70,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            Value="{Binding ElementName=Media, Path=Volume}" />
     </Grid>
 </Window>
